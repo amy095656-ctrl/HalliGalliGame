@@ -36,7 +36,7 @@ struct ContentView: View {
             )
             .ignoresSafeArea()
 
-            // 圓桌桌緣紅色框線裝飾
+            // 圓桌框線
             Circle()
                 .strokeBorder(.black.opacity(0.25), lineWidth: 14)
                 .padding(16)
